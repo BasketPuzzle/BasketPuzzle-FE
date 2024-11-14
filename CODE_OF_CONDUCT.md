@@ -1,10 +1,10 @@
 # A Code of Conduct for Open Source Communities
 
-## Pledge
+## Our Pledge
 
 To create an open and friendly environment, contributors and maintainers pledge to participate in projects and communities without discrimination, regardless of age, body size, disability, ethnicity, gender identity and expression, career, nationality, appearance, race, religion, or sexual identity and orientation.
 
-## Standard
+## Our Standards
 
 To create a positive environment, the following are the actions that contributors need to take:
 
@@ -20,7 +20,7 @@ The actions that should not be taken include:
 * public or personal harassment
 * any other act that may be deemed inappropriate
 
-## Responsibility
+## Enforcement Responsibility
 
 The project maintainer is responsible for clarifying the standards of acceptable behavior. Also,
 We will take appropriate and fair corrective actions for actions that should not be done.
@@ -30,7 +30,7 @@ You have the right and responsibility to delete, modify or reject issues and oth
 A contributor who has acted inappropriately, vicious, aggressive, or harmful
 It can be sent off temporarily or permanently.
 
-## Range
+## Scope
 
 This Code of Conduct applies to the area of the project and if it represents the project or community
 It also applies to the public domain. Examples of projects or community representatives are official projects
@@ -38,7 +38,7 @@ Email address, use an official social media account, or be appointed at an onlin
 There are representative activities, the representative of the project is further defined by the project maintainer
 It will be clarified.
 
-## Force
+## Enforcement
 
 If you find any offensive, bullying, or other non-doing, please report it to the project team. All complaints will be reviewed and investigated, and responses that you think are necessary and appropriate will be given, depending on the situation. The project team is obliged to keep confidentiality regarding the reporter of the case. Details of specific implementation policies may be posted separately.
 
