@@ -46,4 +46,3 @@ The objective of BasketPuzzle is to analyze consumer purchase histories to disco
 The shopping data analysis will be conducted in a Python-based Jupyter Notebook environment. Python libraries such as Pandas, NumPy, and Matplotlib will be used for data analysis, preprocessing, and computation.  
 Additionally, we will use Apriori or FP-Growth for association rule learning, as well as the K-Means algorithm for customer segmentation.  
 Finally, the back-end API will be built using Flask, and the analysis results will be visualized on the web using JavaScript, React, and Chart.js.
-
