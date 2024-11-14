@@ -5,6 +5,7 @@ We take the security of our project seriously. Here are the versions currently s
 
 Version	Supported: 
 * 0.0.1
+
 For older versions, we recommend updating to the latest supported release.
 
 ## Reporting a Vulnerability
@@ -35,4 +36,4 @@ We address vulnerabilities that meet the following criteria:
 * Access control bypass (e.g., unauthorized access).
 * Sensitive data leaks (e.g., personal or confidential data exposure).
 
-If you have questions about the policy or scope, feel free to contact us. 
+If you have questions about the policy or scope, feel free to contact us.
