@@ -35,4 +35,4 @@ We address vulnerabilities that meet the following criteria:
 * Access control bypass (e.g., unauthorized access).
 * Sensitive data leaks (e.g., personal or confidential data exposure).
 
-If you have questions about the policy or scope, feel free to contact us.
+If you have questions about the policy or scope, feel free to contact us. 
