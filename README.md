@@ -1,4 +1,12 @@
-# BasketPuzzle 프로젝트
+# 🧩 BasketPuzzle Project
+
+<br>
+
+## 🌎 Translation Docs
+- [한국어](https://github.com/BasketPuzzle/BasketPuzzle-FE/blob/main/i18n/README_ko.md)
+- [English](https://github.com/BasketPuzzle/BasketPuzzle-FE/blob/main/i18n/README_en.md)
+
+<br>
 
 ## 문제 정의 및 분석
 현대 마케팅에서 소비자가 장바구니에 무엇을 담는지 제품 패턴을 분석하는 것은 매우 중요한 과제이다. 이를 위해 소비자의 소비 패턴을 이해하고, 함께 구매되는 제품을 식별하는 것은 필수적이다.  
@@ -19,30 +27,5 @@ BasketPuzzle의 목표는 소비자의 구매 이력을 분석하여 제품 간�
 
 ## 개발 도구 및 언어
 쇼핑 데이터 분석은 Python 기반의 Jupyter Notebook 환경에서 진행된다. 데이터 분석, 전처리, 계산을 위해 Pandas, NumPy, Matplotlib 등의 Python 라이브러리들을 활용할 것이다.  
-또한 연관 규칙 학습을 위한 Apriori 또는 FP-Growth와 고객 세분화를 위한 K-Means 알고리즘들을 추가로 사용할 예정이다.  
+또한 연관 규칙 학습을 위한 Apriori 또는 FP-Growth와 고객 세분화를 위한 K-Means 알고리즘들을 추가로 사용할 예정이다.
 마지막으로, 백엔드 API는 Flask를 사용하여 구축하고, 웹에서 분석 결과를 시각화하기 위해 JavaScript, React, Chart.js를 활용할 계획이다.
-
-------English Ver.------
-
-# BasketPuzzle Project
-
-## Problem Identification and Analysis
-In modern marketing, analyzing the patterns of products that consumers place in their shopping carts is a crucial task. To achieve this, it is essential to understand consumer consumption patterns and identify which products are frequently purchased together.  
-Therefore, the goal of this project is to analyze consumer shopping cart patterns to determine which product combinations lead to successful transactions, ultimately establishing an effective marketing strategy.  
-Furthermore, to differentiate our project from similar existing studies, we plan to segment consumers into retail and wholesale categories based on their purchase history and implement an algorithm that recommends customized package products tailored to each group.  
-This approach is expected to provide more valuable insights for real-world business strategies.
-
-## Project Objectives
-The objective of BasketPuzzle is to analyze consumer purchase histories to discover patterns among products and represent these insights as quantified data. We aim to establish an API pipeline and visualize the analysis results as charts on the web for easy user access. Through this process, sellers can develop more effective marketing strategies and improve customer satisfaction, while consumers will enjoy a better shopping experience with personalized recommendations.
-
-## Key Features
-1. Visualize shopping cart data through charts
-2. Provide a shopping trend list chart
-3. Product search function
-4. Quantify purchase ratios for segmented customers (retail, wholesale)
-5. Analyze and recommend related products based on purchase history
-
-## Development Tools and Languages
-The shopping data analysis will be conducted in a Python-based Jupyter Notebook environment. Python libraries such as Pandas, NumPy, and Matplotlib will be used for data analysis, preprocessing, and computation.  
-Additionally, we will use Apriori or FP-Growth for association rule learning, as well as the K-Means algorithm for customer segmentation.  
-Finally, the back-end API will be built using Flask, and the analysis results will be visualized on the web using JavaScript, React, and Chart.js.
