@@ -8,8 +8,8 @@ body{
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #2c3e50;
-	color: #fff;
+	background-color: #1ea4af;
+	color: #FFFCF9;
 }
 
 .sidebar-header {
@@ -23,7 +23,7 @@ body{
 
 .sidebar-header .title a{
 	text-decoration: none;
-	color: #fff;
+	color: #FFFCF9;
 }
 
 a.nav-link {
@@ -38,7 +38,7 @@ a.nav-link:hover { color: #777; }
 
 #bio {
 	font-family: "Courier New", Courier, monospace;
-	font-size: 11px;
+	font-size: 20px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
@@ -82,7 +82,8 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
+	color: #FF6978;
+	margin-left: 30px;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -111,8 +112,8 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #2c3e50; }
-article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
+article.home div a, article.home pre a { color: #352D39; }
+article.home div a:hover, article.home pre a:hover { color: #352D39; text-decoration: none; }
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
@@ -123,20 +124,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #f2756a;
+	color: #352D39;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #1EA4AF;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #1EA4AF;
 }
 
 .author .author-image {
@@ -151,7 +152,7 @@ footer {
 
 /* nav-vertical-tabs component */
 .nav-tabs-vertical {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #FFFCF9;
 }
 
 .nav-tabs-vertical li {
@@ -161,8 +162,8 @@ footer {
 .nav-tabs-vertical>li.active>a, .nav-tabs-vertical>li.active>a:hover, .nav-tabs-vertical>li.active>a:focus {
     color: #555;
     cursor: default;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #FFFCF9;
+    border: 1px solid #FFFCF9;
     border-right-color: transparent;
 }
 
@@ -172,7 +173,7 @@ footer {
     border-radius: 4px 0 0 4px;
 }
 
-.badge { background: #F2756A; }
+.badge { background: #FF6978; }
 
 #nav-menu{
     position: fixed;

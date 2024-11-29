@@ -1,0 +1,39 @@
+---
+layout: page
+title: Contact
+header: Contact
+group: navigation
+---
+
+{% capture site_Contacts %}{% for Contact in site.Contacts %}{{ Contact | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign Contact_words = site_Contacts | split:',' | sort %}
+
+
+<div class="col-sm-3 col-xs-6">
+    <ul class="nav nav-tabs-vertical cat-Contact-menu">
+    {% for item in (0..site.Contacts.size) %}{% unless forloop.last %}
+      {% capture this_word %}{{ Contact_words[item] | strip_newlines }}{% endcapture %}
+      <li>
+          <a href="#{{ this_word | replace:' ','-' }}-ref">
+            {{ this_word }}<span class="badge pull-right">{{ site.Contacts[this_word].size }}</span>
+         </a>
+      </li>
+   {% endunless %}{% endfor %}
+   </ul>
+</div>
+<!-- Tab panes -->
+<div class="tab-content col-sm-9 col-xs-6">
+  {% for item in (0..site.Contacts.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ Contact_words[item] | strip_newlines }}{% endcapture %}
+    <div class="tab-pane" id="{{ this_word | replace:' ','-' }}-ref">
+      <h2 style="margin-top: 0px">Posts Contactged  with {{ this_word }}</h2>
+      <ul class="list-unstyled">
+        {% for post in site.Contacts[this_word] %}{% if post.title != null %}
+          <li style="line-height: 35px;"><a href="{{ site.BASE_PATH }}{{post.url}}">{{post.title}}</a> <span class="text-muted">- {{ post.date | date: "%B %d, %Y" }}</span></li>
+        {% endif %}{% endfor %}
+      </ul>
+    </div>
+  {% endunless %}{% endfor %}
+</div>
+
+<div class="clearfix"></div>

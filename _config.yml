@@ -8,6 +8,10 @@ markdown: kramdown
 disqus: BasketPuzzle
 google_analytics: BasketPuzzle
 title: BasketPuzzle
+description: Stylish Jekyll Theme
+
+url:
+baseurl:
 
 defaults:
   -
@@ -16,7 +20,7 @@ defaults:
     values:
       title: BasketPuzzle
 
-description: Stylish Jekyll Theme
+
 author:
   name: BasketPuzzle
   email: tjdnfkd1225@naver.com.
@@ -24,7 +28,7 @@ author:
   twitter: BasketPuzzle
   pinterest: BasketPuzzle
   linkedin: BasketPuzzle
-  bio: Your stylish, minimalist theme!
+  bio: Analyze Shopping Trend
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
