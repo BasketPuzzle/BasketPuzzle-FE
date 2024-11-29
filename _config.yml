@@ -10,8 +10,8 @@ google_analytics: BasketPuzzle
 title: BasketPuzzle
 description: Stylish Jekyll Theme
 
-url:
-baseurl:
+url: "https://basketpuzzle.github.io/BasketPuzzle-FE/"
+baseurl: ""
 
 defaults:
   -
