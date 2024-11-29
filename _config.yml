@@ -10,8 +10,8 @@ google_analytics: BasketPuzzle
 title: BasketPuzzle
 description: Stylish Jekyll Theme
 
-url: "https://basketpuzzle.github.io/BasketPuzzle-FE/"
-baseurl: ""
+
+
 
 defaults:
   -
@@ -30,6 +30,7 @@ author:
   linkedin: BasketPuzzle
   bio: Analyze Shopping Trend
   email_md5: 726351295ec82e145928582f595aa3aa
+  url: https://basketpuzzle.github.io
 
 rss_path: feed.xml
 categories_path: categories.html
