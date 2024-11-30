@@ -1,0 +1,46 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: BasketPuzzle
+google_analytics: BasketPuzzle
+title: BasketPuzzle
+description: Stylish Jekyll Theme
+
+
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: BasketPuzzle
+
+
+author:
+  name: BasketPuzzle
+  email: tjdnfkd1225@naver.com.
+  github: BasketPuzzle
+  twitter: BasketPuzzle
+  pinterest: BasketPuzzle
+  linkedin: BasketPuzzle
+  bio: Analyze Shopping Trend
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH: "/BasketPuzzle-FE"
+url: https://basketpuzzle.github.io
+
+plugins:
+  - jekyll-paginate
