@@ -15,3 +15,12 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+   About the Project.rst
+   Getting Started.rst
+   How to Use.rst
+   Technical Overview.rst
+   API Reference.rst
+   Configuration Guide.rst
+   Maintenance and Troubleshooting.rst
+   Contribution Guidelines.rst
+   FAQ.rst
