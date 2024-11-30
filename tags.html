@@ -1,0 +1,62 @@
+---
+layout: page
+title: Contact Us
+header: Contact
+group: navigation
+---
+
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		{% if site.author.github %}
+		<li>
+			<a class="btn btn-default btn-lg" href="https://github.com/{{ site.author.github }}">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.author.twitter %}
+		<li>
+			<a class="btn btn-default btn-lg" href="https://twitter.com/{{ site.author.twitter }}">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		{% endif %}
+		{% if site.author.email %}
+		<li>
+			<a class="btn btn-default btn-lg" href="mailto:{{ site.author.email }}">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		{% endif %}
+	</ul>
+</div>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Korea">Korea</option>
+      <option value="USA">USA</option>
+      <option value="Japan">Japan</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write your subject.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+<div class="clearfix"></div>
