@@ -1,0 +1,289 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+
+body{
+	color: #2c3e50;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0px;
+	padding-top: 10%;
+	background-color: #1ea4af;
+	color: #FFFCF9;
+}
+
+.sidebar-header {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sidebar-header .title{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.sidebar-header .title a{
+	text-decoration: none;
+	color: #FFFCF9;
+}
+
+a.nav-link {
+	padding-bottom: 5px;
+	padding-top: 7px;
+	color: #aaa;
+}
+a.nav-link i{
+	font-size: 16px;
+}
+a.nav-link:hover { color: #777; }
+
+#bio {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#contact-list li .fa,
+article .share .btn {
+	-o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  transition:color .2s ease-out, background 1s ease-in;
+}
+#contact-list li:hover .fa-twitter,
+article .share .twitter:hover {
+	color: #00ACEE;
+	border-color: #00ACEE;
+}
+#contact-list li:hover .fa-linkedin {
+	color: #1D87BD;
+}
+#contact-list li:hover .fa-envelope {
+	color: #E93E30;
+}
+#contact-list li:hover .fa-pinterest {
+	color: #CC2127;
+}
+#contact-list li:hover .fa-rss {
+	color: #e74c3c;
+}
+article .share .facebook:hover {
+	color: #43609C;
+	border-color: #43609C;
+}
+article .share .gplus:hover {
+	color: #C13929;
+	border-color: #C13929;
+}
+
+#contact-list-secondary {
+	padding-bottom: 10px;
+}
+
+.page-header {
+	color: #FF6978;
+	margin-left: 30px;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+@media only screen and (min-width: 768px) {
+    .page-header{
+        margin-right: 70px;
+    }
+}
+
+article{
+	margin-bottom: 40px;
+}
+
+.article_body{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post-date {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+article {
+	padding: 0 5% 0;
+}
+
+article.home div a, article.home pre a { color: #352D39; }
+article.home div a:hover, article.home pre a:hover { color: #352D39; text-decoration: none; }
+article img { max-width: 100%; }
+
+h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+article.home h1,
+article.home h2,
+article.home h3,
+article.home h4,
+article.home h5,
+article.home h6 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #352D39;
+}
+
+article.home h1 a,
+article.home h2 a,
+article.home h3 a,
+article.home h4 a {
+	color: #1EA4AF;
+}
+article.home h1 a:hover,
+article.home h2 a:hover,
+article.home h3 a:hover,
+article.home h4 a:hover {
+	color: #1EA4AF;
+}
+
+.author .author-image {
+  float: left;
+  margin-right: 20px;
+}
+
+footer {
+	padding-top: 15px;
+	font-family: 'Ubuntu';
+}
+
+/* nav-vertical-tabs component */
+.nav-tabs-vertical {
+    border-right: 1px solid #FFFCF9;
+}
+
+.nav-tabs-vertical li {
+    margin-right: -1px;
+}
+
+.nav-tabs-vertical>li.active>a, .nav-tabs-vertical>li.active>a:hover, .nav-tabs-vertical>li.active>a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #FFFCF9;
+    border: 1px solid #FFFCF9;
+    border-right-color: transparent;
+}
+
+.nav-tabs-vertical>li>a {
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 4px 0 0 4px;
+}
+
+.badge { background: #FF6978; }
+
+#nav-menu{
+    position: fixed;
+    top: 45px;
+    right: 45px;
+    z-index: 2000;
+}
+#nav-menu .dropdown-menu {
+    left: inherit;
+    right: 0px;
+}
+
+ul.dropdown-menu>li>a>i.fa {
+    width: 1.3em;
+}
+
+.section2{}
+.section02 .s2_wrap{position:relative; display: inline-block; width: 769px; height: 440px;}
+.section02 .s2_wrap *{position:absolute; display:inline-block;}
+.section02 .s2_wrap{display:block; margin-top:20px; text-align:center;}
+.section02 .s2_wrap > span {display:inline-block; margin:0 10px; width: 126px; height: 126px; background:#1e1d22; border-radius: 50%; cursor: pointer; }
+.section02 .s2_wrap > i {display:inline-block; margin:50px 10px; width:14px; height: 14px; border-radius: 50%; background-color: #000; -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);}
+
+.section02 .s2_wrap .btn_A {top: 86px; left: 0; background:#000;}
+.section02 .s2_wrap .btn_B {top: 25px; left: 150px; background:#000;}
+.section02 .s2_wrap .btn_C {top: 0; left: 310px; background:#000;}
+.section02 .s2_wrap .btn_D {top: 25px; right:150px; background:#000;}
+.section02 .s2_wrap .btn_E {top: 86px; right: 0; background:#000;}
+
+.button_A{top:300px; left: 265px;}
+.button_B{top:300px; left: 315px;}
+.button_C{top:300px; left: 365px;}
+.button_D{top:300px; left: 415px;}
+.button_E{top:300px; left: 465px;}
+
+.section02 .s2_wrap .btn_A:hover , .section02 .s2_wrap .btn_A.on{background-color:#1EA4AF;}
+.section02 .s2_wrap .btn_B:hover , .section02 .s2_wrap .btn_B.on{background-color:#1B1B3A;}
+.section02 .s2_wrap .btn_C:hover , .section02 .s2_wrap .btn_C.on{background-color:#FF6978;}
+.section02 .s2_wrap .btn_D:hover , .section02 .s2_wrap .btn_D.on{background-color:#693668;}
+.section02 .s2_wrap .btn_E:hover , .section02 .s2_wrap .btn_E.on{background-color:#C5EDAC;}
+
+.section02 .content_box > div{width:500px; height:200px; color:#fff; font-size:30px; text-align:center; margin-left:135px;}
+.section02 .content_box .con_A{background-color:#1EA4AF;}
+.section02 .content_box .con_B{background-color:#1B1B3A;}
+.section02 .content_box .con_C{background-color:#FF6978;}
+.section02 .content_box .con_D{background-color:#693668;}
+.section02 .content_box .con_E{background-color:#C5EDAC;}
+
+.section02 .s2_wrap > i.on,
+.section02 .s2_wrap > i.hover {-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+
+.section02 .s2_wrap > i.on:after,
+.section02 .s2_wrap > i.hover:after {content: ''; display: inline-block; position: absolute; top: -1px; left: -1px; border-radius: 50px; width: 16px; height: 16px; -webkit-box-shadow: 0; -moz-box-shadow: 0; box-shadow: 0;}
+
+.section02 .s2_wrap > i.hover:before,
+.section02 .s2_wrap > i.on.ani:before {content: ''; display: inline-block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.5); transform-origin: center; width: 32px; height: 32px; border-radius: 50px; animation:circle 1.3s linear infinite; opacity: 1; box-sizing: border-box;}
+
+.button_A.hover.ani:before , .button_A.on.ani:before {border: 2px solid #1EA4AF;}
+.button_B.hover.ani:before , .button_B.on.ani:before {border: 2px solid #1B1B3A;}
+.button_C.hover.ani:before , .button_C.on.ani:before {border: 2px solid #FF6978;}
+.button_D.hover.ani:before , .button_D.on.ani:before {border: 2px solid #693668;}
+.button_E.hover.ani:before , .button_E.on.ani:before {border: 2px solid #C5EDAC;}
+
+.section02 .s2_wrap .button_A:after{background-color:#1EA4AF;}
+.section02 .s2_wrap .button_B:after{background-color:#1B1B3A;}
+.section02 .s2_wrap .button_C:after{background-color:#FF6978;}
+.section02 .s2_wrap .button_D:after{background-color:#693668;}
+.section02 .s2_wrap .button_E:after{background-color:#C5EDAC;}
+
+
+@keyframes circle {
+  0% { transform: translate(-50%, -50%) scale(0.5); opacity: 1;}
+  100% { transform: translate(-50%, -50%) scale(1); opacity: 0;}
+}
+
+.content{display:none;}
+.content.con_A{display:block;}
+
+
+
+
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
