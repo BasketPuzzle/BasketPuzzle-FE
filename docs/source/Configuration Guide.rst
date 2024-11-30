@@ -1,11 +1,11 @@
 Configuration Guide
 =================
+- **Environment Variables:**
+  - Create a ``.env`` file and configure it as follows:
+    .. code-block:: bash
 
-This is an example project documentation.
+       PORT=Server port number
+       MONGODB_URI=MongoDB connection URI
 
-Features
---------
-
-- Feature 1
-- Feature 2
-- Feature 3
+- **Frontend Configuration:**
+  - Set the API endpoint in the ``src/config.js`` file.

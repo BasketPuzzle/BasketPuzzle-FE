@@ -1,11 +1,17 @@
 API Reference
 =================
+- **`POST /api/upload`**
+  - **Description:** Uploads purchase history data.
+  - **Request Body:**
+    .. code-block:: json
 
-This is an example project documentation.
+       {
+         "userId": "User ID",
+         "data": "CSV Data"
+       }
 
-Features
---------
+  - **Response:** Upload status message.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- **`GET /api/analysis`**
+  - **Description:** Fetches analysis results.
+  - **Response:** Analysis result data.

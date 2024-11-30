@@ -1,11 +1,10 @@
 Contribution Guidelines
 =================
 
-This is an example project documentation.
-
-Features
---------
-
-- Feature 1
-- Feature 2
-- Feature 3
+- **Coding Standards:**
+  - Follow ESLint rules.
+  - Add comments to code for improved readability.
+- **Contribution Process:**
+  1. Create an issue to report changes or bugs.
+  2. Develop features in a forked repository.
+  3. Submit a pull request to request merging the changes.
