@@ -18,8 +18,3 @@ thumb
 sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/react
-
-_config.yml
-_site/*
-*Thumbs.db
-Gemfile.lock
