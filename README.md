@@ -29,3 +29,6 @@ BasketPuzzle의 목표는 소비자의 구매 이력을 분석하여 제품 간�
 쇼핑 데이터 분석은 Python 기반의 Jupyter Notebook 환경에서 진행된다. 데이터 분석, 전처리, 계산을 위해 Pandas, NumPy, Matplotlib 등의 Python 라이브러리들을 활용할 것이다.  
 또한 연관 규칙 학습을 위한 Apriori 또는 FP-Growth와 고객 세분화를 위한 K-Means 알고리즘들을 추가로 사용할 예정이다.
 마지막으로, 백엔드 API는 Flask를 사용하여 구축하고, 웹에서 분석 결과를 시각화하기 위해 JavaScript, React, Chart.js를 활용할 계획이다.
+
+## ReadTheDocs
+[https://basketpuzzle-fe-docs.readthedocs.io/en/latest/](https://basketpuzzle-fe-docs.readthedocs.io/en/latest/)
