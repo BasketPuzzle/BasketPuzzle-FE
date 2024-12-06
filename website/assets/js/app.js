@@ -15,10 +15,10 @@
     $contactList.mouseleave(function(){ $scontacts.fadeOut(); });
 
     /**
-     * Tags & categories tab activation based on hash value. If hash is undefined then first tab is activated.
+     * contact & community tab activation based on hash value. If hash is undefined then first tab is activated.
      */
     function activateTab() {
-      if(['/tags.html', '/categories.html'].indexOf(window.location.pathname) > -1) {
+      if(['/contact.html', '/community.html'].indexOf(window.location.pathname) > -1) {
         var hash = decodeURIComponent(window.location.hash);
         if(hash)
           $('.tab-pane').length && $('a[href="' + hash + '"]').tab('show');
