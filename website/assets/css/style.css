@@ -198,31 +198,31 @@ ul.dropdown-menu>li>a>i.fa {
 .section02 .s2_wrap > i {display:inline-block; margin:50px 10px; width:14px; height: 14px; border-radius: 50%; background-color: #000; -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35); -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35); box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);}
 
 .section02 .s2_wrap .btn_A {
-	background-image :url("{{ site.BASE_PATH }}/assets/ico/forum.ico");
+	background-image :url("/BasketPuzzle-FE/assets/ico/forum.ico");
 	background-position: center;
 	background-size: 80%;
     background-repeat: no-repeat;
  top: 86px; left: 0; }
 .section02 .s2_wrap .btn_B {
-	background-image :url("{{ site.BASE_PATH }}/assets/ico/discord.ico");
+	background-image :url("/BasketPuzzle-FE/assets/ico/discord.ico");
 	background-position: center;
 	background-size: 90%;
     background-repeat: no-repeat;
 	top: 25px; left: 150px;}
 .section02 .s2_wrap .btn_C {
-	background-image :url("{{ site.BASE_PATH }}/assets/ico/report.ico");
+	background-image :url("/BasketPuzzle-FE/assets/ico/report.ico");
 	background-position: center;
 	background-size: 70%;
     background-repeat: no-repeat;
 	top: 0; left: 310px;}
 .section02 .s2_wrap .btn_D {
-	background-image :url("{{ site.BASE_PATH }}/assets/ico/contribute.ico");
+	background-image :url("/BasketPuzzle-FE/assets/ico/contribute.ico");
 	background-position: center;
 	background-size: 80%;
     background-repeat: no-repeat;
 	top: 25px; right:150px;}
 .section02 .s2_wrap .btn_E {
-	background-image :url("{{ site.BASE_PATH }}/assets/ico/email.ico");
+	background-image :url("/BasketPuzzle-FE/assets/ico/email.ico");
 	background-position: center;
 	background-size: 80%;
     background-repeat: no-repeat;
