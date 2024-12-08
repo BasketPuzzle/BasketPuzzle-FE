@@ -90,7 +90,7 @@ def custom_association_rules(freq_itemsets, metric="confidence", min_threshold=0
     return rules_df.sort_values('lift', ascending=False).reset_index(drop=True)
 
 # 연관규칙 생성
-rules = custom_association_rules(freq_itemsets, metric='confidence', min_threshold=0.3)
+rules = custom_association_rules(freq_itemsets, metric='confidence', min_threshold=0.1)
 print("Association rules generated.")
 
 # API 엔드포인트
