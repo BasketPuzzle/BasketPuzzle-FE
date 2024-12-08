@@ -35,3 +35,6 @@ BasketPuzzle의 목표는 소비자의 구매 이력을 분석하여 제품 간�
 
 ## Jekyll Page
 [https://basketpuzzle.github.io/BasketPuzzle-FE/](https://basketpuzzle.github.io/BasketPuzzle-FE/)
+
+## Service Page
+https://basketpuzzle.github.io/basketpuzzlehosting/
