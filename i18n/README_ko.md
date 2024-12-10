@@ -30,7 +30,7 @@ BasketPuzzle의 목표는 소비자의 구매 이력을 분석하여 제품 간�
 데이터 분석, 전처리, 계산을 위해 Pandas, NumPy, Matplotlib 등의 Python 라이브러리들을 활용할 것이다.<br>
 또한 연관 규칙 학습을 위해 Apriori알고리즘을 사용하였다.<br>
 마지막으로, 백엔드 API는 Flask를 사용하여 구축하고,<br>
-웹에서 분석 결과를 시각화하기 위해 HTML, CSS, JavaScript를 활용할 계획이다.
+웹에서 분석 결과를 시각화하기 위해 HTML, CSS, JavaScript를 활용할 계획이다. 
 
 ## ReadTheDocs
 [https://basketpuzzle-fe-docs.readthedocs.io/en/latest/](https://basketpuzzle-fe-docs.readthedocs.io/en/latest/)
