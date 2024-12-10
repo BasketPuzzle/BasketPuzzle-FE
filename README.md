@@ -3,9 +3,7 @@
 ## 🌎 Translation Docs
 - [한국어](https://github.com/BasketPuzzle/BasketPuzzle-FE/blob/main/i18n/README_ko.md)
 - [English](https://github.com/BasketPuzzle/BasketPuzzle-FE/blob/main/i18n/README_en.md)
-
 <br>
-
 ## 문제 정의 및 분석
 현대 마케팅에서 소비자가 장바구니에 무엇을 담는지 제품 패턴을 분석하는 것은 매우 중요한 과제이다. 이를 위해 소비자의 소비 패턴을 이해하고, 함께 구매되는 제품을 식별하는 것은 필수적이다.  
 따라서 본 프로젝트의 목표는, 소비자의 장바구니 패턴을 분석하여 어떠한 제품 조합이 성공적인 거래로 이어지는지 확인하고, 이를 통해 효과적인 마케팅 전략을 수립하는 것이다.  
